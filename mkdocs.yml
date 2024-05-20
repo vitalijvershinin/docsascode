@@ -21,6 +21,7 @@ theme:
       lang: 
         - en
         - ru
+  - print-site
   features:
     - navigation.instant # ускорение загрузки (SPA)
     - navigation.tracking # динамический URL страницы 
