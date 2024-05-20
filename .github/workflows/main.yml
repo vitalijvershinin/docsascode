@@ -23,7 +23,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
-      - run: git config --global user.name = "vitalij.vershinin"
+      - run: git config --global user.name = "vitalijvershinin"
       - run: git config --global user.email = "vitalij.vershinin@eltex-co.ru"
       - run: git fetch
       - run: pip install mike
