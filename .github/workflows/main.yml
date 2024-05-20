@@ -21,7 +21,7 @@ jobs:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
-            mkdocs-material-
+                mkdocs-material-
       - run: pip install mkdocs-material 
       - run: git config --global user.name = "vitalijvershinin"
       - run: git config --global user.email = "vitalij.vershinin@eltex-co.ru"
